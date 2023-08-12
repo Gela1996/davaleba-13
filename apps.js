@@ -53,47 +53,19 @@
 
 // დავალება 3
 
-let number = number(prompt('Enter number'));
-let result = '';
+// let number = Number(prompt('enter number'));
+// let result = '';
 
-for (let i=0; i< number; i++) {
-    for(let j = 0; j < number; j++ ){
-        result += '*';
-    }
-    result += '/n';
-}
-alert(result);
+// number =15
 
-// i = 0,   j =0, result = '*'
-//          j = 1, result = '**'
-//          j = 2, result = '***'
-//          j = 3, result = '****'
-//          j = 4, result = '*****'
-//          j = 5, result = '******'
-//          j = 6, result = '*******'
-//          j = 7, result = '********'
-//          j = 8, result = '*********'
-//          j = 9, result = '**********'
-//          j = 10, result = '***********'
-//          j = 11, result = '************'
-//          j = 12, result = '*************'
-//          j = 13, result = '**************'
-//          j = 14, result = '***************'
+// for (let i=0; i< number; i++) {
+//    for(let j = 0; j < number; j++ ){
+//       result += '*';
+//   }
+//    result += '\n';
+// }
+// alert(result);
 
-// i = 1,   j =0, result = '*'
-//          j = 1, result = '**'
-//          j = 2, result = '***'
-//          j = 3, result = '****'
-//          j = 4, result = '*****'
-//          j = 5, result = '******'
-//          j = 6, result = '*******'
-//          j = 7, result = '********'
-//          j = 8, result = '*********'
-//          j = 9, result = '**********'
-//          j = 10, result = '***********'
-//          j = 11, result = '************'
-//          j = 12, result = '*************'
-//          j = 13, result = '**************'
-//          j = 14, result = '***************'
+
 
 

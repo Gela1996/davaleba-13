@@ -310,5 +310,13 @@
 
 // დავალება 4
 
+function pow(x, n) {
+    return x ** n;
+}
 
+let number = Number(prompt('enter x'));
+let n = Number(prompt('enter n'));
 
+let result = pow(number, n);
+
+alert(result);
